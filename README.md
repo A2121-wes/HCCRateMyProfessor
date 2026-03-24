@@ -7,7 +7,8 @@
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
 ---
-
+>[!WARNING]
+>This extension is inspired by a friend studying Computer Science at Texas A&M University. Check out his tool for the A&M schedule builder: [AgRate](https://github.com/DavidQ1415/AgRate)
 ## Overview
 
 HCCRate is a Chrome extension that enhances the HCC class search experience by pulling **RateMyProfessors** data and displaying it inline — right next to each instructor's name while you browse sections. No need to open a second tab or search manually.
