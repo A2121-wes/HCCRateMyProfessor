@@ -18,7 +18,7 @@ HCCRate is a Chrome extension that enhances the HCC class search experience by p
 
 ## Features
 
-- **Inline ratings** — Quality rating, difficulty score, and "would take again" percentage displayed next to every instructor
+- **Inline ratings** — Overall rating, difficulty score, and "would take again" percentage displayed next to every instructor
 - **Best Instructors panel** — A floating, draggable panel ranks all instructors on the page so you can instantly spot the best option
 - **Multiple sort modes** — Sort by highest rating, lowest difficulty, or room/building
 - **Collapsible panel** — Minimize the panel when you don't need it so it stays out of your way
