@@ -35,7 +35,7 @@ Coming soon.
 
 ### Developer Mode (Manual)
 
-1. Download the latest ZIP
+1. Download the latest ZIP (https://github.com/A2121-wes/HCCRateMyProfessor/archive/refs/tags/v1.0.0.zip)
 2. Unzip the file
 3. Open `chrome://extensions` in Chrome
 4. Enable **Developer mode** in the top-right corner
