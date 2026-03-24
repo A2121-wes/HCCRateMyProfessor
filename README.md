@@ -34,12 +34,12 @@ Coming soon.
 
 ### Developer Mode (Manual)
 
-1. Download the latest ZIP from the [Releases](../../releases) page
+1. Download the latest ZIP
 2. Unzip the file
 3. Open `chrome://extensions` in Chrome
 4. Enable **Developer mode** in the top-right corner
 5. Click **Load unpacked** and select the unzipped `HCCRate` folder
-6. Navigate to the [HCC Class Search](https://hccsaweb.hccs.edu/psc/csprd_31/EMPLOYEE/SA/c/SSR_STUDENT_FL.SSR_MD_CRSEINFO_FL.GBL) and search for any class
+6. Navigate to the Manage Classes and search for any class
 
 ---
 
