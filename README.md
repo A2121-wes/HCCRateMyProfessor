@@ -12,7 +12,7 @@
 
 HCCRate is a Chrome extension that enhances the HCC class search experience by pulling **RateMyProfessors** data and displaying it inline — right next to each instructor's name while you browse sections. No need to open a second tab or search manually.
 
-![HCCRate Screenshot](hccrate_screenshot_1280x800.png)
+![HCCRate Screenshot](hcc.png)
 
 ---
 
