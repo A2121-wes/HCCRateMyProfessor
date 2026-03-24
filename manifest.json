@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "HCCRate",
+  "version": "1.0.0",
+  "description": "Injects RateMyProfessors ratings directly into the HCC MyEagle Schedule Builder.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://hccsaweb.hccs.edu/*",
+    "http://hccsaweb.hccs.edu/*",
+    "https://www.ratemyprofessors.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://hccsaweb.hccs.edu/*",
+        "http://hccsaweb.hccs.edu/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_title": "HCCRate",
+    "default_icon": "icon.png"
+  }
+}
