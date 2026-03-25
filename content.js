@@ -227,9 +227,9 @@ function renderPanel(panel, valid) {
            style="color:#111;text-decoration:none;font-weight:600;font-size:12px;
                   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;"
            onclick="event.stopPropagation();event.stopImmediatePropagation();">
-          ${p.name}
+          ${escapeHTML(p.name)}
         </a>
-        ${p.room ? `<div style="color:#aaa;font-size:10px;margin-left:16px;">${p.room}</div>` : ""}
+        ${p.room ? `<div style="color:#aaa;font-size:10px;margin-left:16px;">${escapeHTML(p.room)}</div>` : ""}
       </div>
       <div style="text-align:right;margin-left:8px;white-space:nowrap;">
         <span style="color:${ratingToColor(p.rating)};font-weight:700;">${p.rating.toFixed(1)}</span>
@@ -349,6 +349,12 @@ function createBadge({ loading, notFound, data, name }) {
   wrapper.appendChild(linkRow);
 
   return wrapper;
+}
+
+function escapeHTML(str) {
+  return (str || "").toString().replace(/[&<>"']/g, function(m) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m];
+  });
 }
 
 function makeLink(url, text) {
